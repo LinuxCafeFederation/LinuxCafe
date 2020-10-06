@@ -1,5 +1,5 @@
-@import url(font-awesome.min.css);
-@import url(OpenSans-Regular.ttf);
+/*@import url(font-awesome.min.css);
+@import url(OpenSans-Regular.ttf);*/
 /*
 	Industrious by TEMPLATED
 	templated.co @templatedco
@@ -9,7 +9,9 @@
 @-ms-viewport {
   width: device-width; }
 body {
-  -ms-overflow-style: scrollbar; }
+  -ms-overflow-style: scrollbar;
+  
+}
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -105,8 +107,9 @@ body {
   color: #444444; }
 
 body, input, select, textarea {
-  font-family: 'Metropolis-Regular'
-  font-weight: 400;
+  /* font-family: 'Metropolis-Regular'
+  font-weight: 400; */
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.65; }
 
@@ -117,7 +120,9 @@ a {
   transition: color 0.2s ease-in-out;
   text-decoration: underline; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color:#666ba0;
+   }
 
 strong, b {
   font-weight: 600; }
@@ -139,7 +144,7 @@ header.special {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.5;
-  text-transform: uppercase;
+  text-transform: none;
   margin: 0 0 1.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
@@ -2072,6 +2077,10 @@ ul.icons {
     color: #ffffff; }
   #cta a {
     color: #ffffff; }
+  #cta a:hover
+  {
+    color: black;
+  }
   #cta strong, #cta b {
     color: #ffffff; }
   #cta h1, #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
