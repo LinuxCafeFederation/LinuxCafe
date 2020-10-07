@@ -15,20 +15,10 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    -ms-overflow-style: scrollbar;
-    -webkit-text-size-adjust: none;
-    background: #ffffff;
+    margin: auto auto;
     background-color: #ffffff;
     color: #444444;
-    line-height: 1;
     font-family: 'OpenSans-Regular';
-    font-size: 1rem;
     line-height: 1.65;
 }
 
@@ -41,20 +31,9 @@ body {
 @font-face {
     font-family: 'OpenSans-Regular';
     src: url('OpenSans-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-#newfont {
-    font-family: 'OpenSans-Regular';
 }
 
 a {
-    -moz-transition: color 0.2s ease-in-out;
-    -webkit-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
     text-decoration: underline;
 }
 
@@ -72,35 +51,26 @@ header.special {
     margin-bottom: 4rem;
 }
 
-header.special p {
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
     line-height: 1.5;
-    text-transform: none;
     margin: 0 0 1.5rem 0;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
-    text-decoration: none;
+    color: #555555;
 }
 
 h1 {
+    font-weight: 300;
     font-size: 3rem;
     line-height: 1.2;
 }
 
 h2 {
+    font-weight: 300;
     font-size: 2.25rem;
     line-height: 1.3;
 }
 
 h3 {
+    font-weight: 300;
     font-size: 1.25rem;
 }
 
@@ -121,29 +91,12 @@ hr {
     border-bottom: solid 1px;
     margin: 1rem 0;
 }
-
-hr.major {
-    margin: 4rem 0;
-}
-
 header a {
     color: white
 }
 
 a {
     color: #83480a;
-}
-
-strong, b {
-    color: #555555;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #555555;
-}
-
-hr {
-    border-bottom-color: rgba(0, 0, 0, 0.25);
 }
 
 /* Inner */
@@ -157,30 +110,13 @@ hr {
 /* Highlights */
 
 .highlights {
-    width: 100%;
     margin: 2.5rem 0;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
-    -moz-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -moz-align-items: -moz-stretch;
-    -webkit-align-items: -webkit-stretch;
-    -ms-align-items: -ms-stretch;
-    align-items: stretch;
 }
 
 .highlights>* {
-    -moz-flex-shrink: 1;
-    -webkit-flex-shrink: 1;
-    -ms-flex-shrink: 1;
     flex-shrink: 1;
-    -moz-flex-grow: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-grow: 0;
     flex-grow: 0;
 }
 
