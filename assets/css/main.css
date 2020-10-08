@@ -44,21 +44,34 @@ scale the site correctly in the current layout */
 header {
     width: 100%;
     padding: 5px;
-    text-align: right;
     background-color: #1A1A1A;
     color: white;
+    box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.36);
 }
 
 /* link in header */
 
 header a {
     color: cyan;
+    padding: 15px;
 }
 
 /* For img in header(in this case the favicon) */
 
 header img {
     float: left;
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    align-content: flex-start;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* The main banner under the header */
@@ -69,12 +82,14 @@ header img {
     align-content: center;
     flex-direction: column;
     color: white;
-    background-color: black;
+    background: rgb(123, 63, 251);
+    background: radial-gradient(circle, rgba(123, 63, 251, 1) 74%, rgba(192, 70, 252, 1) 100%);
     background-size: cover;
     text-align: center;
     min-height: 40rem;
     padding: 8rem 8rem 6rem 8rem;
     font-size: larger;
+    box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.36);
 }
 
 .banner a {
@@ -102,8 +117,9 @@ a:hover {
     flex-direction: column;
     text-align: center;
     padding: 8rem 0 6rem 0;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
+    box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.36);
 }
 
 /* Container for the 3 boxes with links(flex) */
@@ -113,7 +129,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     line-height: 1.65;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* The actual boxes */
@@ -127,10 +143,12 @@ a:hover {
 }
 
 .cta {
-    background-color: #eeaa55;
+    background: rgb(255, 218, 172);
+    background: radial-gradient(circle, rgba(255, 218, 172, 1) 85%, rgba(238, 170, 85, 1) 100%);
     color: #000000;
     padding: 8rem 8rem 6rem 8rem;
     text-align: center;
+    box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.36);
 }
 
 .cta a {
@@ -148,6 +166,7 @@ a:hover {
 footer {
     background-color: black;
     color: white;
+    box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.36);
 }
 
 footer .thanks {
@@ -156,7 +175,7 @@ footer .thanks {
     align-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 3rem 0 3rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
 @media screen and (max-width: 1250px) {

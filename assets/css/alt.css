@@ -44,7 +44,6 @@ scale the site correctly in the current layout */
 header {
     width: 100%;
     padding: 5px;
-    text-align: right;
     background-color: #000111;
     color: #ffffff;
 }
@@ -53,12 +52,25 @@ header {
 
 header a {
     color: cyan;
+    padding: 15px;
 }
 
 /* For img in header(in this case the favicon) */
 
 header img {
     float: left;
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    align-content: flex-start;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* The main banner under the header */
