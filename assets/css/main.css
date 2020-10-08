@@ -37,7 +37,6 @@ scale the site correctly in the current layout */
     flex-direction: column;
     height: 100vh;
     width: 1600px;
-    width: ;
 }
 
 /* Simple styling for the items */
@@ -46,7 +45,7 @@ header {
     width: 100%;
     padding: 5px;
     text-align: right;
-    background-color: black;
+    background-color: #1A1A1A;
     color: white;
 }
 
@@ -70,19 +69,29 @@ header img {
     align-content: center;
     flex-direction: column;
     color: white;
-    background-image: linear-gradient(purple, blue);
+    background-color: black;
+    background-size: cover;
     text-align: center;
     min-height: 40rem;
     padding: 8rem 8rem 6rem 8rem;
+    font-size: larger;
 }
 
 .banner a {
     color: white;
 }
 
+footer a {
+    color:cyan;
+}
+
+.footer a {
+    color:white;
+}
+
 a {
     text-decoration: underline;
-    color: #83480a;
+    color: #cd2026;
 }
 
 a:hover {
@@ -129,7 +138,7 @@ a:hover {
 }
 
 .cta a {
-    color: white;
+    color: darkblue;
 }
 
 .cta a:hover {
@@ -137,7 +146,7 @@ a:hover {
 }
 
 .cta h2 {
-    color: white;
+    color: black;
 }
 
 footer {
@@ -158,6 +167,9 @@ footer .thanks {
     .link-container {
         flex-direction: column;
     }
+    .links {
+        width: 80%;
+    }
     .banner {
         min-height: auto;
         padding: 2rem 2rem 2rem 2rem;
@@ -165,9 +177,14 @@ footer .thanks {
     .footer {
         padding: 3rem 2rem 3rem 2rem;
     }
+    .page {
+        width: 95%;
 }
 
 @media screen and (max-width: 800px) {
+    .links {
+        width: 100%;
+    }
     .cta {
         padding: 2rem 2rem 2rem 2rem;
     }
