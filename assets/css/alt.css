@@ -81,95 +81,7 @@ header img {
 }
 
 footer a {
-    color:cyan;/* Ensure proper sizing */
-
-* {
-    box-sizing: border-box;
-}
-
-/* Correctly define multiple headers */
-
-:is(h1, h2, h3, h4, h5, h6) {
-    font-weight: 300;
-    line-height: 1.5;
-    text-transform: none;
-    margin: 0 0 1.5rem 0;
-}
-
-/* Put default values for the page here, override in respective calls */
-
-body {
-    background-color: #181b21;
-    color: #ffffff;
-    margin: auto;
-}
-
-/* Container for the main flex row, this is "needed" to position and 
-scale the site correctly in the current layout */
-
-.container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-/* Flex container for the actual content */
-
-.page {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 1600px;
-    width: 95%;
-}
-
-/* Simple styling for the items */
-
-header {
-    width: 100%;
-    padding: 5px;
-    text-align: right;
-    background-color: #000111;
-    color: #ffffff;
-}
-
-/* link in header */
-
-header a {
     color: cyan;
-}
-
-/* For img in header(in this case the favicon) */
-
-header img {
-    float: left;
-}
-
-/* The main banner under the header */
-
-.banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    color: #ffffff;
-    background-image: linear-gradient(#181b21, black);
-    text-align: center;
-    min-height: 40rem;
-    padding: 8rem 8rem 6rem 8rem;
-    font-size: larger;
-}
-
-.banner a {
-    color: cyan;
-}
-
-footer a {
-    color:cyan;
-}
-
-.footer a {
-    color:#ffffff;
 }
 
 a {
@@ -235,110 +147,7 @@ a:hover {
 
 footer {
     background-color: black;
-    color: #ffffff;
-}
-
-footer .thanks {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 3rem 0 3rem 0;
-}
-
-@media screen and (max-width: 1250px) {
-    .link-container {
-        flex-direction: column;
-    }
-    .banner {
-        min-height: auto;
-        padding: 2rem 2rem 2rem 2rem;
-    }
-    .footer {
-        padding: 3rem 2rem 3rem 2rem;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .cta {
-        padding: 2rem 2rem 2rem 2rem;
-    }
-    .about {
-        padding: 1rem 0 1rem 0;
-    }
-}
-
-}
-
-.footer a {
-    color:#ffffff;
-}
-
-a {
-    text-decoration: underline;
-    color: #00FFD9;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #666ba0;
-}
-
-/* About us section */
-
-.about {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 8rem 0 6rem 0;
-    width: 95%;
-    margin: 0 auto;
-}
-
-/* Container for the 3 boxes with links(flex) */
-
-.link-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    line-height: 1.65;
-    justify-content: space-between;
-}
-
-/* The actual boxes */
-
-.links {
-    box-shadow: #ffffff;
-    background-color: #000111;
-    height: 100%;
-    text-align: center;
-    padding: 3rem;
-    width: 21rem;
-}
-
-.cta {
-    background-color: #000111;
-    color: #ffffff;
-    padding: 8rem 8rem 6rem 8rem;
-    text-align: center;
-}
-
-.cta a {
-    color: cyan;
-}
-
-.cta a:hover {
-    color: #ffffff;
-}
-
-.cta h2 {
-    color: #ffffff;
-}
-
-footer {
-    background-color: black;
-    color: #ffffff;
+    color: white;
 }
 
 footer .thanks {
@@ -352,7 +161,7 @@ footer .thanks {
 
 @media screen and (max-width: 1250px) {
     .page {
-            width: 95%;
+        width: 95%;
     }
     .link-container {
         flex-direction: column;

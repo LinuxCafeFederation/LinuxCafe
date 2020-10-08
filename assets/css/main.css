@@ -82,11 +82,7 @@ header img {
 }
 
 footer a {
-    color:cyan;
-}
-
-.footer a {
-    color:white;
+    color: cyan;
 }
 
 a {
@@ -179,6 +175,7 @@ footer .thanks {
     }
     .page {
         width: 95%;
+    }
 }
 
 @media screen and (max-width: 800px) {
