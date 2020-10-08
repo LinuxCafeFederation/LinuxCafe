@@ -112,7 +112,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 8rem 0 6rem 0;
+    padding: 8rem 8rem 6rem 8rem;
     width: 95%;
     margin: 0 auto;
 }
@@ -160,6 +160,7 @@ a:hover {
 footer {
     background-color: black;
     color: white;
+    padding: 8rem 8rem 6rem 8rem;
 }
 
 footer .thanks {
@@ -168,7 +169,6 @@ footer .thanks {
     align-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 3rem 0 3rem 0;
 }
 
 @media screen and (max-width: 1250px) {
