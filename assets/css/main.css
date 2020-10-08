@@ -37,7 +37,6 @@ scale the site correctly in the current layout */
     flex-direction: column;
     height: 100vh;
     width: 1600px;
-    width: 95%;
 }
 
 /* Simple styling for the items */
@@ -178,6 +177,8 @@ footer .thanks {
     .footer {
         padding: 3rem 2rem 3rem 2rem;
     }
+    .page {
+        width: 95%;
 }
 
 @media screen and (max-width: 800px) {
