@@ -83,7 +83,7 @@ header img {
     flex-direction: column;
     color: black;
     background: rgb(123, 63, 251);
-    background: radial-gradient(circle, rgba(114, 137, 218, 1) 74%, rgba(0, 204, 255, 1) 100%);
+    background: rgba(114, 137, 218, 1) 74%;
     background-size: cover;
     text-align: center;
     min-height: 40rem;
