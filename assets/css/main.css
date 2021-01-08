@@ -81,7 +81,7 @@ header img {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    color: white;
+    color: black;
     background: rgb(123, 63, 251);
     background: radial-gradient(circle, rgba(114, 137, 218, 1) 74%, rgba(0, 204, 255, 1) 100%);
     background-size: cover;
