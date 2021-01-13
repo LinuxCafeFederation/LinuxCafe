@@ -81,7 +81,7 @@ header img {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    color: black;
+    color: white;
     background: rgb(123, 63, 251);
     background: rgba(114, 137, 218, 1) 74%;
     background-size: cover;
@@ -144,7 +144,7 @@ a:hover {
 
 .cta {
     background: rgb(255, 218, 172);
-    background: radial-gradient(circle, rgba(255, 218, 172, 1) 85%, rgba(238, 170, 85, 1) 100%);
+    background: rgba(248, 217, 100) 100%;
     color: #000000;
     padding: 8rem 8rem 6rem 8rem;
     text-align: center;
